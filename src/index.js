@@ -79,7 +79,7 @@
 // }
 
 
-// // ======================================
+// // ===============================================
 // let MyPage = () => {
 //     return( 
 //         <> 
@@ -101,25 +101,80 @@
 // ReactDOM.render(<MyPage /> ,document.getElementById("root"))
 // ReactDOM.render(<h1> its working</h1> ,document.getElementById("root"))
 
-import React from "react";
-import ReactDOM from "react-dom";
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import StyleCss from "./Style.css";
+// import Header from "./Header"
+// ========================================
 
-const Header = () => {
-return(
-    <header>
-    <nav className= "nav">
-        <img src= "logo192.png" width= "40px" />
-        <ul className="nav-items">
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-        </nav>
-    </header>
-    )
-    }
+// const Header = () => {
+// return(
+//     <header>
+//     <nav className= "nav">
+//         <img src= "logo192.png" alt="logo" className= "nav-logo" />
+//         <ol className="nav-items">
+//             <li>Pricing</li>
+//             <li>About</li>
+//             <li>Contact</li>
+//         </ol>
+//         </nav>
 
-ReactDOM.render(<Header />, document.getElementById("root"))
+//         <p className="uju">Hello</p>
+
+//     </header>
+//     )
+//     }
+
+// ====================================================
+
+// ReactDOM.render(<Header />, document.getElementById("root"))
+
+
+    // const MainContent = () => {
+    // return (
+    // <>
+    // <h1>Reasons I am excited to learn React</h1>
+    // <ol>
+    //     <li>It is great</li>
+    //     <li>It is awesome</li>
+    //     <li>I like it</li>
+    // </ol>
+    // </>
+
+    // )
+    // }
+
+    // import React from "react";
+    // import ReactDOM from "react-dom";
+    // import Header from "./Components/Header"
+    // import MainContent from "./Components/MainContent";
+    // import Footer from "./Components/Footer"
+    // import "./Style.css"
+
+
+    // function App() {
+    //     return(
+    //         <>
+    //         <Header />
+    //         <MainContent />
+    //         <Footer />
+    //         </>
+    //     )
+    // }
+
+    // ReactDOM.render(<App/>, document.getElementById("root"))
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
+import style from "./index.css"
+
+
+
+ReactDOM.render(<App />, document.getElementById("root"))
+
+
+
+
 
 
 

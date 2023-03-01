@@ -1,14 +1,120 @@
-.nav {
-    display: flex;
-}
 
+/* HEADER */
+
+/* .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .nav-items {
 list-style: none;
 display: flex;
 }
 
+.nav-items > li {
+padding: 10px;
+}
+
+.nav-logo {
+    width: 90px;
+}
+
+.uju {
+    font-size: 100px;
+    margin-left: 50px;
+    color: red;
+}
+
+.facts {
+    margin: 0.5px;
+    text-align: left;
+    color: rgba(0, 149, 255, 0.695);
+
+} */
+
+/* =================================================== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #282D35;  
+
+}
+
+nav {
+display: flex;
+align-items: center;
+background-color: #21222A;
+height: 90px;
+padding: 30px 25px;
+
+}
+
+.nav--logo_text3, .nav--title4 {
+margin: 0;
+display: flex;
+}
+
+.nav--logo_text3 {
+    margin-right: auto;
+    color: #61dafb;
+    font-weight: 700;
+    font-size:22px ;
+}
+
+.nav--title4 {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+
+.nav--icon {
+    width: 25px;
+    margin-right:7px ;
+}
+
+main {
+    padding: 40px 30px ;
+    color: white;
+    font-size: 39px;
+}
+
+/* .main--title {
+    margin: 
+    font-size:
+} */
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */

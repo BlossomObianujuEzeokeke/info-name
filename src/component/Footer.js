@@ -1,13 +1,30 @@
-import React from "react";
+// import React from "react";
 
 
-const Footer = () => {   
-        return(  
-             <footer>   
-                  <small> &copy;2023 Ezeokeke. All rights reserved. </small>
-             </footer>
-      )
-    }
+// const Footer = () => {   
+//         return(  
+//              <footer>   
+//                   <small> &copy;2023 Ezeokeke. All rights reserved. </small>
+//              </footer>
+//       )
+//     }
 
 
-    export default Footer
+//     export default Footer
+
+// ================================================================
+
+// AIRBNB PROJECT
+ 
+
+
+
+
+
+
+
+
+
+
+
+

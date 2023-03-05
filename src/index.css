@@ -129,6 +129,10 @@ nav {
     ;
 }
 
+.gray {
+   color: #918E9B;
+}
+
 .nav--logo {
     max-width: 100px;
 }
@@ -159,6 +163,25 @@ margin-top: 0;
 
     }
 
+.card {
+    width: 175px;
+    font-size: 12px;
+}
+
+.card--image {
+width: 100%;
+border-radius:12px;
+}
+
+/* .card--stats {
+    display: flex;
+    align-items: center;
+} */
+
+.card--star {
+  height: 14px;  
+  padding-right: 2px;
+}
 
 
 

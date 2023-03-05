@@ -18,7 +18,8 @@
     import React from "react";
     import Navbar from "./component/Navbar";
     import Contents from "./component/Contents"
-    import Cards from "./"
+    import Cards from "./component/Card"
+    import Experiment from "./component/Experiment"
 
 
   const App = () => {
@@ -26,7 +27,8 @@
       <div> 
          <Navbar />
          <Contents />
-         <Card />
+         <Cards />
+         <Experiment />
       </div>
 
     )

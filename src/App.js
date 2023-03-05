@@ -15,22 +15,25 @@
 
 // ================================================
 // AIRBNB PROJECT
-  import React from "react";
-  import Navbar from "./component/Navbar";
-import Contents from "./component/Contents"
-
-const App = () => {
-  return( 
-    <div> 
-  <Navbar />
-  <Contents />
-    </div>
-
-  )
-  }
+    import React from "react";
+    import Navbar from "./component/Navbar";
+    import Contents from "./component/Contents"
+    import Cards from "./"
 
 
-export default App
+  const App = () => {
+    return( 
+      <div> 
+         <Navbar />
+         <Contents />
+         <Card />
+      </div>
+
+    )
+    }
+
+
+  export default App
 
 
 

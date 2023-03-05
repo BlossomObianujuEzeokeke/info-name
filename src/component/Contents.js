@@ -25,9 +25,9 @@ const Contents = () => {
     return ( 
 
     <section className="hero"> 
-        <img src= "../Images/Group 77.png" alt="Hero pictures" className="section--hero"></img>
-        <h1 className="section--content">Online Experiences</h1>
-        <p className="section--content2">Join unique interactive activities led by one-of-a kind hosts-all without leaving home</p>
+        <img src= "../Images/Group 77.png" alt="Hero pictures" className="hero--photo"></img>
+        <h1 className="hero--header">Online Experiences</h1>
+        <p className="hero--content2">Join unique interactive activities led by one-of-a kind hosts-all without leaving home</p>
 
      </section>
             

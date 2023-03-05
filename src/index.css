@@ -135,26 +135,30 @@ nav {
 
 /*CONTENTS */
 
-.section--hero { 
+.hero--photo { 
 padding: 5em 20em;
 display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.section--content {
-    padding: 3em 2.5em;
-font-size: 5em;
+.hero--header {
+font-size: 4em;
 padding-top: 0.05%;
+margin-left: 14%;
+margin-top: 0;
 }
 
-.section--content2 {
-    padding: 3em 2.5em;
-margin-top: 0.05px;
-}
+    .hero--content2 {
+    margin-top: 0;
+    padding-left: 14.2%;
+    align-self: center;
+    max-width: fit-content;
+    font-size: 25px;
+    word-wrap: break-word;
 
-.hero {
-    max-width: 400px;
-}
+    }
+
 
 
 

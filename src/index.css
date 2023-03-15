@@ -129,9 +129,16 @@ nav {
     ;
 }
 
-.gray {
+.gray--1 {
    color: #918E9B;
+   padding-right: 2px;
+   padding-left: 2px;
 }
+
+.gray {
+    color: #918E9B;
+    padding-right: 2px;
+ }
 
 .nav--logo {
     max-width: 100px;

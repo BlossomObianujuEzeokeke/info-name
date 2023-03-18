@@ -12,19 +12,19 @@
 
 // ==============================================
 
-import React from "react";
+// import React from "react";
 
-const Navbar = () => {
-return(
+// const Navbar = () => {
+// return(
 
-    <nav>
-<img src= "../Images/airbnb 1.png" alt="Airbnb logo" className="nav--logo"></img>  
-</nav>   
+//     <nav>
+// <img src= "../Images/airbnb 1.png" alt="Airbnb logo" className="nav--logo"></img>  
+// </nav>   
 
-)
-}
+// )
+// }
 
-export default Navbar
+// export default Navbar
 
 
 

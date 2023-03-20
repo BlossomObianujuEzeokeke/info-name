@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 // export default function Contacts(props) {
 //     return(
@@ -15,15 +15,15 @@ import React from "react";
 //     )
 // }
 
-export default function Contacts(props) {
-    return(
-<div>
-    <img src={props.img}/>
-    <h1>{props.name}</h1>
-    <p>{props.time}</p>
-</div>
-    )
-}
+// export default function Contacts(props) {
+//     return(
+// <div>
+//     <img src={props.img}/>
+//     <h1>{props.name}</h1>
+//     <p>{props.time}</p>
+// </div>
+//     )
+// }
 
 //    OR
 // export default function Contacts(img, name, time) {

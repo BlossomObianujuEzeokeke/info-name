@@ -14,6 +14,10 @@ import NameList from "./component/NameList";
 import Person from "./component/Person";
 import "./component/myStyles.css"
 import styles from "./component/appStyles.module.css"
+import Lifecycle from "./component/Lifecycle";
+import FragmentDemo from "./component/FragmentDemo";
+
+
 
 
 
@@ -22,6 +26,11 @@ const App = () => {
     <div>
 
 
+
+
+      <FragmentDemo />
+
+       {/* <Lifecycle /> */}
       
       {/* <h1 className="nigeria">Nigeria</h1>
       <h1 className={styles.usa}>USA</h1>

@@ -2,9 +2,11 @@ import React from 'react'
 
 function FragmentDemo() {
   return (
-    <h1>
-      Fragment Demo
-    </h1>
+    <React.Fragment>
+      <h1>Fragment</h1>
+      <p>This is a demo</p>
+
+    </React.Fragment>
   )
 }
 

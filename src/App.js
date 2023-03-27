@@ -16,6 +16,8 @@ import "./component/myStyles.css"
 import styles from "./component/appStyles.module.css"
 import Lifecycle from "./component/Lifecycle";
 import FragmentDemo from "./component/FragmentDemo";
+import Table from "./component/Table";
+import Column from "./component/Column";
 
 
 
@@ -27,8 +29,13 @@ const App = () => {
 
 
 
+      
 
-      <FragmentDemo />
+      {/* <Column /> */}
+
+      {/* <Table /> */}
+
+      {/* <FragmentDemo /> */}
 
        {/* <Lifecycle /> */}
       

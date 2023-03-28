@@ -1,4 +1,4 @@
-import React from "react";
+import React, { PureComponent } from "react";
 import Welcome from "./component/Welcome";
 import Hello from "./component/Hello";
 import Greet from "./component/Greet";
@@ -18,8 +18,12 @@ import Lifecycle from "./component/Lifecycle";
 import FragmentDemo from "./component/FragmentDemo";
 import Table from "./component/Table";
 import Column from "./component/Column";
-
-
+import PureComp from "./component/PureComp";
+import RegComp from "./component/RegComp";
+import ParentComp from "./component/ParentComp";
+import RefsDemo from "./component/RefsDemo";
+import FRInput from "./component/FRInput";
+import FRParentInput from "./component/FRParentInput";
 
 
 
@@ -27,9 +31,17 @@ const App = () => {
   return (
     <div>
 
+     <FRParentInput />
 
+      {/* <FRInput /> */}
 
-      
+      {/* <RefsDemo />  */}
+ 
+      {/* <ParentComp /> */}
+
+      {/* <RegComp /> */}
+
+      {/* <PureComp /> */}
 
       {/* <Column /> */}
 
@@ -80,7 +92,6 @@ const App = () => {
 };
 
 export default App;
-
 
 
 

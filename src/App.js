@@ -22,8 +22,9 @@ import PureComp from "./component/PureComp";
 import RegComp from "./component/RegComp";
 import ParentComp from "./component/ParentComp";
 import RefsDemo from "./component/RefsDemo";
-import FRInput from "./component/FRInput";
-import FRParentInput from "./component/FRParentInput";
+import PortalDemo from "./component/PortalDemo";
+import Hero from "./component/Hero"
+import ErrorBoundary from "./component/ErrorBoundary";
 
 
 
@@ -31,10 +32,21 @@ const App = () => {
   return (
     <div>
 
-     <FRParentInput />
 
-      {/* <FRInput /> */}
+      <ErrorBoundary />
+      <Hero  heroName = "Batman" />
+      <ErrorBoundary />
 
+      <ErrorBoundary />
+      <Hero  heroname = "Superman"/>
+      <ErrorBoundary />
+
+      <ErrorBoundary />
+      <Hero  heroName = "The slammer"/>
+      <ErrorBoundary />
+
+     {/* <PortalDemo /> */}
+      
       {/* <RefsDemo />  */}
  
       {/* <ParentComp /> */}

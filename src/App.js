@@ -3,8 +3,8 @@ import Welcome from "./component/Welcome";
 import Hello from "./component/Hello";
 import Greet from "./component/Greet";
 import Message from "./component/Message";
-import Counter from "./component/Counter"
-import FunctionClick from "./component/FunctionClick"
+import Counter from "./component/Counter";
+import FunctionClick from "./component/FunctionClick";
 import ClassClick from "./component/ClassClick";
 import EventBind from "./component/EventBind";
 import ParentComponent from "./component/ParentComponent";
@@ -12,8 +12,8 @@ import ChildComponent from "./component/Child Component";
 import UserGreeting from "./component/UserGreeting";
 import NameList from "./component/NameList";
 import Person from "./component/Person";
-import "./component/myStyles.css"
-import styles from "./component/appStyles.module.css"
+import "./component/myStyles.css";
+import styles from "./component/appStyles.module.css";
 import Lifecycle from "./component/Lifecycle";
 import FragmentDemo from "./component/FragmentDemo";
 import Table from "./component/Table";
@@ -23,17 +23,34 @@ import RegComp from "./component/RegComp";
 import ParentComp from "./component/ParentComp";
 import RefsDemo from "./component/RefsDemo";
 import PortalDemo from "./component/PortalDemo";
-import Hero from "./component/Hero"
+import Hero from "./component/Hero";
 import ErrorBoundary from "./component/ErrorBoundary";
+import ClickCounter from "./component/ClickCounter";
+import ClickCounterTwo from "./component/ClickCounterTwo";
+import HoverCounterTwo from "./component/HoverCounterTwo";
+import { UserProvider } from "./component/userContext";
+import ComponentC from "./component/componentC";
 
 
 
-const App = () => {
-  return (
-    <div>
 
 
-      <ErrorBoundary />
+
+
+const App = () => { 
+    return (
+      <div>
+        <UserProvider value = "Vishwas">
+           <ComponentC /> 
+           </UserProvider>
+
+        {/* <HoverCounterTwo /> */}
+
+        {/* <ClickCounterTwo /> */}
+
+        {/* <ClickCounter /> */}
+
+        {/* <ErrorBoundary />
       <Hero  heroName = "Batman" />
       <ErrorBoundary />
 
@@ -43,31 +60,32 @@ const App = () => {
 
       <ErrorBoundary />
       <Hero  heroName = "The slammer"/>
-      <ErrorBoundary />
+      <ErrorBoundary /> */}
 
-     {/* <PortalDemo /> */}
-      
-      {/* <RefsDemo />  */}
- 
-      {/* <ParentComp /> */}
+        {/* <PortalDemo /> */}
 
-      {/* <RegComp /> */}
+        {/* <RefsDemo />  */}
 
-      {/* <PureComp /> */}
+        {/* <ParentComp /> */}
 
-      {/* <Column /> */}
+        {/* <RegComp /> */}
 
-      {/* <Table /> */}
+        {/* <PureComp /> */}
 
-      {/* <FragmentDemo /> */}
+        {/* <Column /> */}
 
-       {/* <Lifecycle /> */}
-      
-      {/* <h1 className="nigeria">Nigeria</h1>
+        {/* <Table /> */}
+
+        {/* <FragmentDemo /> */}
+
+        {/* <Lifecycle /> */}
+
+        {/* <h1 className="nigeria">Nigeria</h1>
       <h1 className={styles.usa}>USA</h1>
       <h2 className="native">Native</h2>
         */}
-      {/* <Greet name="Cynthia" age=" 20 "><button><b>Hello child </b></button></Greet>
+
+        {/* <Greet name="Cynthia" age=" 20 "><button><b>Hello child </b></button></Greet>
       <Greet name="Bruce" age=" 30 "><b> This is a child</b> </Greet>
       <Greet name="Diana" age=" 50 " />
 
@@ -76,35 +94,30 @@ const App = () => {
       <Welcome name="Almond" age=" 20 "><button><b>Hello child </b></button></Welcome>
       <Welcome name="Diana" age=" 50 "><input type="text" placeholder="Name here"/></Welcome> */}
 
-      {/* <Hello /> */}
+        {/* <Hello /> */}
 
-      {/* <Message /> */}
+        {/* <Message /> */}
 
-     {/* <Counter /> */}
+        {/* <Counter /> */}
 
-      {/* <FunctionClick /> */}
+        {/* <FunctionClick /> */}
 
-      {/* <ClassClick /> */}
+        {/* <ClassClick /> */}
 
-      {/* <EventBind /> */}
+        {/* <EventBind /> */}
 
-      {/* <ParentComponent /> */}
+        {/* <ParentComponent /> */}
 
-      {/* <ChildComponent /> */}
+        {/* <ChildComponent /> */}
 
-      {/* <UserGreeting /> */}
+        {/* <UserGreeting /> */}
 
-      {/* <NameList /> */}
+        {/* <NameList /> */}
 
-      {/* <Person /> */}
+        {/* <Person /> */}
+      </div>
+    )
+  }
 
-
-    </div>
-  );
-};
 
 export default App;
-
-
-
-
